@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');  /* Roboto Font */
+
+* {  
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 100%; 
+    height: 100%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+}
+
+.idrive-info-section {
+    margin-left: -25px;
+    width: 1300px;
+    background-color: aliceblue;
+    padding: 2%;
+}
+
+.profile-picture {
+    background-image: url("https://play-lh.googleusercontent.com/A6y8kFPu6iiFg7RSkGxyNspjOBmeaD3oAOip5dqQvXASnZp-Vg65jigJJLHr5mOEOryx");
+    background-size: cover;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 100px;
+    border: 5px solid #0A589B;
+
+    margin-left: 100px;
+
+    position: inherit;
+}
+
+.change-picture {
+    background-color: rgba(0, 0, 0, 0);
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 100px;
+
+    margin-left: 100px;
+
+    position: fixed;
+    left: 16.7%;
+    top: 19.9%;
+}
+
+.change-picture a {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+
+    color:rgba(0, 0, 0, 0);
+}
+
+.change-picture:hover {
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.change-picture a:hover {
+    font-weight: bold;
+
+    color:white;
+
+    display: block;
+}
+
+.text-group {
+    float: left;
+    padding: 20px;
+
+    margin-left: 20px;
+}
+
+.text-group h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+}
+
+.text-group h1 {
+    font-size: 32px;
+    color: #0A589B;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+
+    letter-spacing: 2px;
+}
+
+.text-group p {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.enrolled { 
+    font-size: 12px;
+    color: rgb(174, 174, 174);
+
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.contact-info-section {
+    margin-left: -25px;
+    width: 1300px;
+    background-color: rgb(179, 179, 179);
+    padding: 2%;
+
+    position: relative;
+}
+
+.contact-info-section form {
+   padding-top: 20px;
+}
+
+.text-title h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+
+    text-align: center;
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-group input {
+    border-radius: 25px 25px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 50px;
+
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+
+    text-align: center;
+}
+
+.form-label {
+    position: absolute;
+    top: 1%;
+    left: 7%;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.email {
+    position: absolute;
+    left: 54%;
+}
+
+.emergency {
+    position: absolute;
+    left: 42.5%;
+    padding-bottom: 20px;
+}
+
+.edit-btn {
+    position: absolute;
+    left: 89%;
+    top: 5%;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 50px 50px;
+    border: 2px solid rgb(59, 59, 59);
+    width: 100px;
+    height: 50px;
+
+    text-align: center;
+}
+
+
+
+
+
